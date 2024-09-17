@@ -1,0 +1,159 @@
+*{
+    margin:0;
+}
+body{
+
+    background-color: #dc91d2 ;
+    height: 850px;
+}
+header{
+
+    width: 100%;
+    height: 15vh;
+    background-color: #040148;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.MiStoreRDLogo{
+
+    height: 12vh;
+    width: 100px;
+
+}
+#Logo{
+
+    width: 95%;
+    height: 100%;
+
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#dc91d2;
+}
+.links{
+
+    color: white;
+}
+.CajaLinks{
+
+    width: 250px;
+    height: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+.lin{
+
+    height: 5px;
+    width: 100%;
+    background-color: white;
+}
+.linea2{
+
+    margin-top: 50px;
+}
+
+main{
+
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+.panelizquierdo{
+
+    height: 100%;
+    width: 30%;
+    background-color: #040148;
+    border-radius: 5%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 5px solid white;
+
+
+}
+.panelsemicentro{
+
+    height: 100%;
+    width: 65%;
+    background-color: #040148;
+    border-radius: 5%;
+    margin-top: 1%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   border: 5px solid white;
+}
+h1{
+
+    color: white;
+    margin-top: 10%;
+}
+video{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+
+}
+.cartas{
+
+    width: 30%;
+    height: 80%;
+    background-color:#040148;
+    border-radius: 5%;
+    border:5px solid #dc91d2;
+    
+}
+.cartas:hover{
+
+    border: 5px solid white;
+}
+.fondocartas{
+
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.productos{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+
+}
+
+/*Parte de los productos*/
+
+.contenedorproductos{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 1200px;
+}
+.cajasproductos{
+
+ width: 300px;    
+ height: 350px;
+ background-color: #040148;
+ border: 2px solid white;
+ border-radius: 5%;
+}
+.productosgeneral{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}

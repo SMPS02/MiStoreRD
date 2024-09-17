@@ -1,0 +1,93 @@
+*{
+
+    margin:0;
+
+}
+.P1{
+
+    width: 100%;
+    height: 1000px;
+}
+footer{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 250px;
+    background-color: #040148;
+}
+.lineas{
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+p{
+
+    color: #dc91d2;
+    margin-top: 5px;
+}
+h4{
+
+    font-size: 18px;
+    color: white;
+}
+.ultimalinea{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+
+}
+input{
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5%;
+    border-style: none;
+    border: 1px solid rgb(194, 193, 193);
+}
+#Boton{
+
+    width: 80px;
+    height: 29px;
+    margin-left: 2px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: #dc91d2;
+    color: white;
+}
+.duo{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.linea{
+
+    width: 70%;
+    height: 3px;
+    background-color: #dc91d2;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.segundaParte{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    background-color:#040148;
+}
+.partefinal{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px ;
+
+
+
+}
