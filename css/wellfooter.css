@@ -46,19 +46,21 @@ input{
 
     width: 150px;
     height: 25px;
-    border-radius: 5%;
     border-style: none;
     border: 1px solid rgb(194, 193, 193);
 }
-#Boton{
+.Boton{
 
     width: 80px;
     height: 29px;
-    margin-left: 2px;
+    margin-left: 5px;
     border-radius: 5%;
     border-style: none;
     background-color: #dc91d2;
     color: white;
+}
+.Boton2{
+    background-color: #040148;
 }
 .duo{
 
@@ -90,4 +92,11 @@ input{
 
 
 
+}
+.linksredes{
+    color: #dc91d2;
+}
+.linksredes:visited{
+
+    color: white;
 }
