@@ -1,12 +1,14 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
-body{
 
-    background-color: #dc91d2 ;
+body {
+
+    background-color: #dc91d2;
     height: 850px;
 }
-header{
+
+header {
 
     width: 100%;
     height: 15vh;
@@ -15,31 +17,37 @@ header{
     align-items: center;
     justify-content: space-around;
 }
-.MiStoreRDLogo{
+
+.MiStoreRDLogo {
 
     height: 15vh;
     width: 200px;
 
 }
-#Logo{
+
+#Logo {
 
     width: 95%;
     height: 100%;
 
 }
-a{
+
+a {
 
     text-decoration: none;
     color: white;
 }
-a:hover{
-    color:#dc91d2;
+
+a:hover {
+    color: #dc91d2;
 }
-.links{
+
+.links {
 
     color: white;
 }
-.CajaLinks{
+
+.CajaLinks {
 
     width: 250px;
     height: 8vh;
@@ -47,24 +55,27 @@ a:hover{
     flex-wrap: wrap;
     font-style: italic;
 }
-.lin{
+
+.lin {
 
     height: 5px;
     width: 100%;
     background-color: white;
 }
-.linea2{
+
+.linea2 {
 
     margin-top: 50px;
 }
 
-main{
+main {
 
     display: flex;
     width: 100%;
     height: 70vh;
 }
-.panelizquierdo{
+
+.panelizquierdo {
 
     height: 100%;
     width: 30%;
@@ -76,7 +87,8 @@ main{
 
 
 }
-.panelsemicentro{
+
+.panelsemicentro {
 
     height: 100%;
     width: 65%;
@@ -86,35 +98,40 @@ main{
     margin-left: 2%;
     display: flex;
     flex-direction: column;
-   align-items: center;
-   border: 5px solid white;
+    align-items: center;
+    border: 5px solid white;
 }
-h1{
+
+h1 {
 
     color: white;
     margin-top: 10%;
 }
-video{
+
+video {
 
     width: 100%;
     height: 100%;
     border-radius: 5%;
 
 }
-.cartas{
+
+.cartas {
 
     width: 30%;
     height: 80%;
-    background-color:#040148;
+    background-color: #040148;
     border-radius: 5%;
-    border:5px solid #dc91d2;
-    
+    border: 5px solid #dc91d2;
+
 }
-.cartas:hover{
+
+.cartas:hover {
 
     border: 5px solid white;
 }
-.fondocartas{
+
+.fondocartas {
 
     width: 95%;
     height: 80%;
@@ -123,24 +140,27 @@ video{
     align-items: center;
 
 }
-.productos{
+
+.productos {
 
     height: 100%;
     width: 100%;
     border-radius: 3%;
 
 }
-.cajacarrusel{
+
+.cajacarrusel {
 
     width: 60%;
     height: 50vh;
     margin-top: 5%;
     margin-left: 20%;
-    background-color: #040148;   
-    border: 5px solid white; 
+    background-color: #040148;
+    border: 5px solid white;
     border-radius: 5%;
 }
-.carrusel{
+
+.carrusel {
 
     width: 34.3%;
     height: 100%;
@@ -149,11 +169,12 @@ video{
     overflow: hidden;
 
 }
-.imagencarrusel{
+
+.imagencarrusel {
 
     width: 1640%;
     height: 100%;
-    animation: mover 9s infinite steps(3);
+    animation: mover 20s infinite steps(10);
 
 
 }
@@ -162,7 +183,7 @@ video{
 
 /*Parte de los productos*/
 
-.contenedorproductos{
+.contenedorproductos {
 
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -172,21 +193,25 @@ video{
     width: 100%;
     height: 1300px;
 }
-.cajasproductos{
 
- width: 300px;    
- height: 350px;
- background-color: #040148;
- border: 2px solid white;
- border-radius: 5%;
+.cajasproductos {
+
+    width: 300px;
+    height: 350px;
+    background-color: #040148;
+    border: 2px solid white;
+    border-radius: 5%;
+    transition: transform 0.5s;
 }
-.productosgeneral{
+
+.productosgeneral {
 
     width: 100%;
     height: 100%;
     border-radius: 4%;
 }
-.Obtener{
+
+.Obtener {
 
     width: 100%;
     height: 6vh;
@@ -196,17 +221,19 @@ video{
     margin-top: 10px;
     border-style: none;
 }
-.ObtenerP{
+
+.ObtenerP {
 
     background-color: #dc91d2;
 }
-.a2{
+
+.a2 {
     color: #040148;
 }
 
 /*Parte de Contactos*/
 
-.mision{
+.mision {
 
     width: 1440;
     height: 10%;
@@ -219,7 +246,8 @@ video{
     font-weight: 800;
     margin-top: 80px;
 }
-.misiontexto{
+
+.misiontexto {
     width: 100%;
     height: 20%;
     background-color: #dc91d2;
@@ -230,7 +258,8 @@ video{
     align-items: center;
     text-align: center;
 }
-.vision{
+
+.vision {
 
     width: 1440;
     height: 10%;
@@ -242,7 +271,8 @@ video{
     font-size: 2rem;
     font-weight: 800;
 }
-.valores{
+
+.valores {
 
     width: 1440;
     height: 10%;
@@ -254,22 +284,26 @@ video{
     font-size: 2rem;
     font-weight: 800;
 }
-.pptext{
+
+.pptext {
 
     color: #040148;
 }
-.misiontexto2{
+
+.misiontexto2 {
 
     display: flex;
     justify-content: space-evenly;
 }
-.lista{
+
+.lista {
     display: flex;
-    
+
     flex-direction: column;
 }
+
 /*Parte de Sobre Nosotros*/
-.contactanos{
+.contactanos {
 
     width: 100%;
     height: 500px;
@@ -278,94 +312,149 @@ video{
     justify-content: center;
     gap: 20px;
 
-    
+
 }
-.centrocontacto{
+
+.centrocontacto {
 
     display: flex;
     flex-direction: column;
     width: 48%;
     height: 470px;
     border-radius: 5%;
-    
+
 }
-.informacion{
+
+.informacion {
 
     width: 100%;
     height: 100%;
     border-style: none;
     border: 2px solid #dc91d2;
 }
-textarea{
+
+textarea {
 
     margin: 5px;
     border-style: none;
     border: 2px solid #040148;
 
 }
-.input1{
+
+.input1 {
     margin: 5px;
     border-style: none;
     height: 10%;
     width: 97.5%;
     border: 2px solid #040148;
 }
-h2{
+
+h2 {
 
     margin: 10px;
     color: #040148;
 }
-iframe{
+
+iframe {
     margin: auto;
     width: 100%;
     height: 90%;
 }
 
 /*Hovers y animaciones generales*/
-.Obtener:hover{
+.Obtener:hover {
 
     background-color: purple;
     color: #040148;
     border: 2px solid black;
 }
-textarea:focus{
+
+textarea:focus {
 
     background-color: #040148;
     color: #dc91d2;
 }
-.input1:focus{
+
+.input1:focus {
 
     background-color: #040148;
     color: #dc91d2;
 }
-@keyframes mover{
 
-    0%,33.33%{
+@keyframes mover {
 
-    transform: translateX(0);
+    0%,
+    10% {
+
+        transform: translateX(0);
     }
-    33.34%, 66.66%{
+
+    11%,
+    20% {
 
         transform: translateX(-292px);
 
     }
-    66.67%,100%{
-        transform: translateX(-585px);
+
+    21%,
+    30% {
+        transform: translateX(-584px);
+
+    }
+
+    31%,
+    40% {
+
+        transform: translateX(-876px);
+    }
+
+    41%,
+    50% {
+
+        transform: translateX(-1168px);
+
+    }
+
+    51%,
+    60% {
+        transform: translateX(-1460px);
+
+    }
+
+    61%,
+    70% {
+
+        transform: translateX(-1752px);
+    }
+
+    71%,
+    80% {
+
+        transform: translateX(-2044px);
+
+    }
+
+    81%,
+    90% {
+        transform: translateX(-2336px);
+
+    }
+
+    91%,
+    100% {
+        transform: translateX(-2628px);
 
     }
 }
-.cajasproductos:hover{
+
+.cajasproductos:hover {
     border: 2px solid #040148;
-    animation: moverimagenes 0.5s;
+    transform: translateY(10px);
+}
+
+@keyframes moverimagenes {
+
+
 
 }
-@keyframes moverimagenes{
-
-    From{
-        margin-top: 0px;
-    }
-    to{
-        margin-top: 10px;
-    }
-} 
-    
+/*Parte del Responsive*/
